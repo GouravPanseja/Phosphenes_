@@ -14,16 +14,16 @@ const Footer = () => {
                 <img src={line} alt="line" />
               </div>
               <div className="flex-items-center justify-center w-full sm:w-[80%] md::w-[75%] my-4 xs:my-6">
-                <h1 className="text-2xl xs:text-3xl  text-center s:text-4xl font-black sm:leading-tight text-[#000000]">
+                <h1 className="text-2xl xs:text-3xl  text-center s:text-4xl font-black sm:leading-tight text-white">
                    Special Thanks to the CSE Department, and the CBS for trusting us.
                 </h1>
               </div>
               <div className="flex items-center justify-center flex-row gap-4 md:mb-12 py-2 my-2 xs:my-6 w-full xs:w-[95%] sm:w-[75%] lg:w-[50%]">
                <Link to="https://forms.gle/V73pXU1xmP2JdNibA" className="flex items-center justify-center w-[85%] xs:w-full bg-black group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full p-2 flex-1">
-                <button type="submit" className=" text-[#f07800] group-hover:text-black rounded-full text-[.5rem] xs:text-xs font-black ">Register Now</button>
+                <button type="submit" className=" text-[#f07800] group-hover:text-white rounded-full text-[.5rem] xs:text-xs font-black ">Register Now</button>
               </Link>
               <a href={pdf} download="rulebook" className="focus:none outline:none flex items-center justify-center w-[85%] xs:w-full bg-transparent group border border-black transition duration-200 ease-in-out  rounded-full p-2 flex-1">
-                <button type="submit" className=" text-black  rounded-full text-xs font-black">Rule Book</button>
+                <button type="submit" className=" text-white  rounded-full text-xs font-black">Rule Book</button>
               </a>  
               </div>
             </div>
